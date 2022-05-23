@@ -1,0 +1,33 @@
+.top-div {
+  background-color: black;
+  width: 300vw;
+  height: 100vh;
+}
+
+.main-image {
+  background-color: white;
+  height: 80vh;
+  width: 10vw;
+}
+
+.content-div {
+  background-color: gold;
+  height: 80vh;
+  width: 100vw;
+}
+
+.page-information {
+  background-color: crimson;
+  height: 80vh;
+  width: 100vw;
+}
+
+.quote-div {
+  background-color: turquoise;
+  height: 80vh;
+  width: 100vw;
+}
+
+
+
+
