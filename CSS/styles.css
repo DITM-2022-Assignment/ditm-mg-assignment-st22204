@@ -1,16 +1,19 @@
 body {
-  background-color: rgb(255, 255, 255);
-}
-
-.top-div {
   background-color: black;
-  width: 100vw;
-  height: 20vh;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color:black;
+
+.div3 {
+  background-color: white;
+  width: 100vw;
+  height: 40vh;
+}
+
+.div2 {
+  background-color: white;
+  width: 100vw;
+  height: 40vh;
+
 }
 
 .topnav a {
