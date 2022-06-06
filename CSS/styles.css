@@ -1,7 +1,6 @@
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
-
 
 .div3 {
   background-color: white;
@@ -20,19 +19,18 @@ body {
   float: left;
   display: block;
   text-align: left;
-  padding: 16px 20px;
   text-decoration: none;
   font-size: 17px;
 }
   
 .topnav input[type=text] {
-  float: right;
-  padding: 6px;
+  float: left;
   border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+  margin-top: 0px;
+  margin-right: 0px;
+  font-size: 20px;
   text-align: left;
+  
 }
 
 .topnav a, .topbav input[type=text] {
@@ -40,8 +38,7 @@ body {
   display: block;
   text-align:left;
   width: 100%;
-  margin: 0;
-  padding: 14px;
+
 }
 
 .footer {
@@ -49,7 +46,50 @@ body {
   text-align: center;
   background:lightsalmon
 }
-
+      /* Style The Dropdown Button */
+      .dropbtn {
+        background-color: #40a9a2;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        width: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+        z-index: 1;
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #88acb0}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #62a7b2;
+      }
 
 
 
